@@ -14,37 +14,41 @@ SHOPS = [
     'store_Latitude': '12',
     'store_Name': 'Courant Deli',
     'address': '251 Mercer St, New York, NY 10012',
-    'Food': {
-        'picture': 'food.jpg',
-        'items': [{
+    'Food':
+        [{
             'name': 'BLT',
             'price': '3.50',
-            },
-            {
+            'picture': 'BLT.jpg',
+        },
+        {
             'name': 'PBJ',
             'price': '2.20',
-            },
-            {
+            'picture': 'PBJ.jpg',
+        },
+        {
             'name': 'Turkey Club',
             'price': '5.50',
-            }],
-    },
-    'Drinks': {
-        'picture': 'drink.jpg',
-        'items': [{
+            'picture': 'turkeyClub.jpg',
+        }],
+    'Drinks':
+        [{
             'name': 'Coffee',
             'price': '1.50',
-            },
-            {
+            'picture': 'coffee.jpg',
+        },
+        {
             'name': 'Mango Smoothie',
             'price': '7.30',
-            },
-            {
+            'picture': 'mangoSmoothie.jpg',
+        },
+        {
             'name': 'Tea',
             'price': '1.00',
-            }],
+            'picture': 'tea.jpg',
+        }],
     },
-    }]
+
+    ]
 
 # configuration
 DEBUG = True
