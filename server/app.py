@@ -9,8 +9,8 @@ import re
 SHOPS = [
     {
     'ID': 'courant_Deli',
-    'store_Longtitude': '73.9957 W',
-    'store_Latitude': '40.7287 N',
+    'store_Longtitude': '-73.9957',
+    'store_Latitude': '+40.7287',
     'store_Name': 'Courant Deli',
     'address': '251 Mercer St, New York, NY 10012',
     'Food':
@@ -48,8 +48,8 @@ SHOPS = [
     },
     {
     'ID': 'silver_Deli',
-    'store_Longtitude': '73.9953 W',
-    'store_Latitude': '40.7307 N',
+    'store_Longtitude': '-73.9953',
+    'store_Latitude': '+40.7307',
     'store_Name': 'Silver Deli',
     'address': '31 Waverly Pl, New York, NY 10003',
     'Food':
